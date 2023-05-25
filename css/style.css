@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-image: url('../images/dawn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba( 0, 0, 0, 0.402);
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 20px 0;
+}
+.logo{}
+.logo h3{
+    font-size: 18px;
+    color: white;
+}
+
+.logo h3 span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+nav{
+    text-align: right;
+}
+
+nav ul{
+    text-align: right;
+    display: inline;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.Colorful-world {
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+} 
+
+.Colorful-world h3{
+    font-size: 20px;
+    font-style: italic;
+}
+.Colorful-world span{
+        width: 100px;
+        height: 4px;
+        background: red;
+        display: inline-block;
+        margin-bottom: 20px;
+}
+.Colorful-world h1{
+    font-size: 70px;
+}
+.Colorful-world button{
+    font-size:20px ;
+    background: red;
+    padding: 10px 31px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 43px;
+}
+
+.container{}
+
+header{}
+.logo{}
+.logo h3{}
+
+nav{}
+nav ul{}
+nav ul li{}
+nav ul li a{}
+
+.colorful-world{}
+.colorful-world h3{}
+.colorful-world span{}
+.colorful-world h1{}
+.colorful-world button{}
