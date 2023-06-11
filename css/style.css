@@ -16,8 +16,8 @@ img{
 }
 
 .flex{
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: center;
 }
 
 header{
@@ -194,7 +194,87 @@ nav ul li a{
     width: 100%;
     margin-bottom: 20px;
 }
+/* 0 to 480 px */
+@media  only screen and (max-width:480px) 
+{
+    .container{
+        width: 100%;
+        margin: auto;
+    
+    }
+    .flex{
+    display: flex;
+    justify-content: center;
+    }
+    header{
+        background-image: url('../images/dawn.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-color: rgba( 0, 0, 0, 0.402);
+        background-position: center;
+        background-blend-mode: multiply;
+        padding: 20px 0;
+    }
+     .contain-container{
+        flex-direction: column;
+     }
+     .explore .col-1-2{
+        width: 100%;
+    }
+    .upcoming-container{
+       flex-direction: column;
+        justify-content: center;
+        padding: 100px 0;
+    }
+    .col-1-3{
+        width: 100%;
+    }
+    .upcoming-container .col-1-3 h1{
+        text-align: center;
+    }
+    .col-1-3 button{
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .small{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .big{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 
+@media  only screen and (max-width:746px) 
+{
+    .container{
+        width: 746px;
+        margin:auto;
+    }
+    .explore .col-1-2{
+        width: 100%;
+    }
+    .upcoming-container{
+        flex-direction: column;
+         justify-content: center;
+         padding: 100px 0;
+     }
+     .col-1-3{
+        width: 100%;
+     }
+    .upcoming-container .col-1-3 h1{
+        text-align: center;
+    }
+    .upcoming-container .col-1-3 p{
+        text-align: center;
+    }
+}
 
 
 
